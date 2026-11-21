@@ -1,0 +1,143 @@
+{
+  "@context": "https://schema.org",
+  "@graph": [
+    {
+      "@type": "Organization",
+      "@id": "https://guardianorbit.app/#organization",
+      "name": "Earn It Not Given LLC",
+      "legalName": "Earn It Not Given LLC",
+      "url": "https://guardianorbit.app/",
+      "logo": "https://guardianorbit.app/images/icon.jpg",
+      "email": "support@guardianorbit.app",
+      "address": {
+        "@type": "PostalAddress",
+        "streetAddress": "335 Donohoe St",
+        "addressLocality": "East Palo Alto",
+        "addressRegion": "CA",
+        "postalCode": "94303",
+        "addressCountry": "US"
+      },
+      "brand": {
+        "@type": "Brand",
+        "name": "GuardianOrbit"
+      }
+    },
+    {
+      "@type": "MobileApplication",
+      "@id": "https://guardianorbit.app/#app",
+      "name": "GuardianOrbit",
+      "description": "Teen safety app for parents on iPhone and Apple Watch, with live precise location and coordinates, one-tap SOS the teen confirms before calling 911, crash and fall alerts, and family locator tools.",
+      "operatingSystem": "iOS, watchOS",
+      "applicationCategory": "UtilitiesApplication",
+      "applicationSubCategory": "Family locator and teen safety",
+      "inLanguage": "en-US",
+      "isAccessibleForFree": true,
+      "url": "https://guardianorbit.app/",
+      "image": "https://guardianorbit.app/images/og-image.jpg",
+      "author": { "@id": "https://guardianorbit.app/#organization" },
+      "publisher": { "@id": "https://guardianorbit.app/#organization" },
+      "offers": [
+        {
+          "@type": "Offer",
+          "name": "Free",
+          "price": "0",
+          "priceCurrency": "USD"
+        },
+        {
+          "@type": "Offer",
+          "name": "Premium",
+          "price": "4.99",
+          "priceCurrency": "USD",
+          "description": "$4.99 per month or $39.99 per year, with a 7-day trial."
+        },
+        {
+          "@type": "Offer",
+          "name": "Family",
+          "price": "7.99",
+          "priceCurrency": "USD",
+          "description": "$7.99 per month, with a 7-day trial."
+        }
+      ],
+      "featureList": "Live precise location with coordinates, one-tap SOS with teen confirmation before 911, Apple Watch crash and fall alerts, abduction alert mode, rideshare guard, earned privacy dial, duress PIN, earthquake reunion plan, safe havens"
+    },
+    {
+      "@type": "WebSite",
+      "@id": "https://guardianorbit.app/#website",
+      "url": "https://guardianorbit.app/",
+      "name": "GuardianOrbit",
+      "description": "Official site for GuardianOrbit, a teen safety app and family locator for iPhone and Apple Watch.",
+      "publisher": { "@id": "https://guardianorbit.app/#organization" },
+      "inLanguage": "en-US"
+    },
+    {
+      "@type": "FAQPage",
+      "@id": "https://guardianorbit.app/#faq",
+      "mainEntity": [
+        {
+          "@type": "Question",
+          "name": "When will GuardianOrbit be available?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "GuardianOrbit is coming soon to the App Store for iPhone and Apple Watch. Join the waitlist on this page; the form is a placeholder until launch and does not store your email yet."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Does GuardianOrbit automatically call 911?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "No. One-tap SOS notifies the family circle with live location and coordinates. The teen confirms before a call to 911 is placed. The app never places an automatic 911 call."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "How precise is the location?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Family cards and SOS screens show live latitude and longitude to six decimal places, plus accuracy, altitude, and the time of the last update. During trips and SOS, the app uses the iPhone’s most precise GPS mode and discards stale or fuzzy readings. Location accuracy still depends on GPS conditions and is not guaranteed."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Is GuardianOrbit a medical device?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "No. Crash and fall alerts from Apple Watch are safety notifications only. GuardianOrbit does not diagnose injuries, provide medical advice, or act as a medical device."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "What ages is GuardianOrbit for?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "GuardianOrbit is for families with users 13 years of age or older. We do not knowingly collect personal information from children under 13."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Do you sell personal data?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "No. Earn It Not Given LLC does not sell personal data. Location is shared only with the family circle the teen has consented to, and sharing stays visible in the app."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "How much does GuardianOrbit cost?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "A Free plan is planned, along with Premium at $4.99 per month or $39.99 per year, and Family at $7.99 per month. Paid plans include a 7-day trial. Subscriptions will be billed through the App Store. Planned pricing is in USD and may be refined before launch."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "How do I delete my account and data?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "You can delete your account and associated data in the app. See the Privacy Policy and the Support page for details."
+          }
+        }
+      ]
+    }
+  ]
+}
