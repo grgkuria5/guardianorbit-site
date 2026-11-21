@@ -2,7 +2,7 @@
   "name": "GuardianOrbit",
   "short_name": "GuardianOrbit",
   "description": "Teen safety app for parents. Family locator for iPhone and Apple Watch.",
-  "start_url": "/",
+  "start_url": "./",
   "display": "browser",
   "background_color": "#050a14",
   "theme_color": "#050a14",

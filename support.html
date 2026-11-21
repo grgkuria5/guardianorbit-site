@@ -2,6 +2,8 @@
 <html lang="en-US">
 <head>
   <meta charset="utf-8">
+  <meta http-equiv="Content-Security-Policy" content="default-src 'self'; img-src 'self' data:; style-src 'self'; script-src 'self'; form-action 'none'; base-uri 'self'">
+  <meta name="referrer" content="strict-origin-when-cross-origin">
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <title>Support | GuardianOrbit</title>
   <meta name="description" content="Support for GuardianOrbit, the teen safety app from Earn It Not Given LLC. Account, privacy, and deletion help. The support email is a placeholder until launch.">
@@ -30,9 +32,7 @@
   <meta name="twitter:description" content="Support for GuardianOrbit, the teen safety app from Earn It Not Given LLC. Account, privacy, and deletion help. The support email is a placeholder until launch.">
   <meta name="twitter:image" content="https://guardianorbit.app/images/og-image.jpg">
   <link rel="stylesheet" href="css/styles.css">
-  <script type="application/ld+json">
-{"@context":"https://schema.org","@type":"Organization","@id":"https://guardianorbit.app/#organization","name":"Earn It Not Given LLC","url":"https://guardianorbit.app/","address":{"@type":"PostalAddress","streetAddress":"335 Donohoe St","addressLocality":"East Palo Alto","addressRegion":"CA","postalCode":"94303","addressCountry":"US"}}
-</script>
+  <script type="application/ld+json" src="js/schema-organization.json"></script>
 
 </head>
 <body>
@@ -68,12 +68,12 @@
         <p class="lede">If someone is in immediate danger, call 911 (or your local emergency number) from the Phone app. This website and the address below are not emergency services and are not monitored around the clock.</p>
       </div>
     </header>
-    <div class="wrap" style="padding-bottom:4rem;">
+    <div class="wrap support-body">
       <div class="contact-grid">
         <article class="card contact-card">
           <h2>Email (placeholder)</h2>
           <p><a href="mailto:support@guardianorbit.app">support@guardianorbit.app</a></p>
-          <p style="margin-top:0.7rem;">This address is a <strong>placeholder</strong> and may not be monitored until the GuardianOrbit domain and inbox are set up. Please do not send time-sensitive or emergency information here yet.</p>
+          <p class="placeholder-note">This address is a <strong>placeholder</strong> and may not be monitored until the GuardianOrbit domain and inbox are set up. Please do not send time-sensitive or emergency information here yet.</p>
         </article>
         <article class="card contact-card">
           <h2>Mail</h2>
@@ -93,7 +93,7 @@
           <p>Paid plans (Premium $4.99/month or $39.99/year, and Family $7.99/month, with a 7-day trial) will be billed through the App Store. To change or cancel a subscription after purchase, use your Apple ID subscription settings. Apple handles refunds under its terms.</p>
         </article>
       </div>
-      <div class="prose" style="padding-bottom:0;margin-top:0.5rem;">
+      <div class="prose support-followup">
         <h2>What to include in a support request</h2>
         <p>When a monitored inbox is live, please include your account email, whether you are writing as a parent or a teen, and a short description of the issue (account access, privacy or deletion, a bug, or a safety-feature question). Do not send passwords. For App Store charges, include the Apple transaction if you have it.</p>
         <h2>Product questions</h2>
